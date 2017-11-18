@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">聆惜</string>
+    <string name="title_new">资讯</string>
+    <string name="title_life_help">天气</string>
+    <string name="title_smile">笑语</string>
+    <string name="title_program">福利</string>
+    <string name="splash_logo_title">来源于ydscience</string>
+    <string name="ask_result">成功的返回</string>
+    <string name="ask_failed">请求失败</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="loading">加载中…</string>
+    <string name="error_info">加载失败</string>
+    <string name="refreshing">正在刷新中...</string>
+    <string name="action_settings">分享</string>
+    <string name="setting">设置</string>
+    <string name="change_city">切换城市</string>
+    <string name="url_loading_error">网页请求失败，请检查网络</string>
+    <string name="ask_request">再试一次</string>
+    <string name="share_logo">来源于ydscience</string>
+    <string name="share_title">分享到</string>
+    <string name="top_title">——  ——————</string>
+    <string name="temperature_details">——°/——°</string>
+    <string name="windPower"> —————</string>
+    <string name="windRange">风力——级</string>
+    <string name="weatherDescribe">——</string>
+    <string name="currentTempatute">—————°</string>
+    <string name="currentAqi">————</string>
+    <string name="refresh_message">定位失败，请尝试刷新</string>
+    <string name="title_activity_select_more_city">SelectMoreCityActivity</string>
+</resources>

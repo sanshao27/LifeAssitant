@@ -1,0 +1,37 @@
+
+签名者 #1:
+
+签名:
+
+  所有者: CN=w, OU=w, O=w, L=w, ST=w, C=w
+
+  发布者: CN=w, OU=w, O=w, L=w, ST=w, C=w
+
+  序列号: 6e6f42dc
+
+  有效期开始日期: Tue Mar 28 15:07:20 CST 2017, 
+  截止日期: Sat Mar 22 15:07:20 CST 2042
+
+  证书指纹:
+	 
+      MD5: 37:A3:03:10:2D:12:70:DD:9C:85:20:CC:66:85:D5:7B
+	 
+      SHA1: 11:9E:24:A7:37:91:CB:D5:99:6E:F1:9B:CC:FE:EE:FD:7D:ED:7A:38
+	 
+      SHA256: 64:C8:E7:1C:67:72:29:5A:C1:C8:B6:F9:C5:EF:3A:EE:36:AE:BE:6F:39:26:88:04:14:BA:7D:77:69:03:11:A1
+	 
+  签名算法名称: SHA256withRSA
+	 
+  版本: 3
+
+扩展: 
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: CC A0 FC 8C CB 4C E0 92   2E 76 98 17 4E C6 8A DC  .....L...v..N...
+0010: BF 4F AA 61                                        .O.a
+]
+]
+
+

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.ydscience.lifeassistant">
+
+<!-- <uses-permission android:name="android.permission.DELETE_PACKAGES" -->
+<!-- tools:ignore="ProtectedPermissions"/> -->
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+<!--用于进行网络定位-->
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+<!--用于访问GPS定位-->
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+<!--用于访问wifi网络信息，wifi信息会用于进行网络定位-->
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+<!--用于获取wifi的获取权限，wifi信息会用来进行网络定位-->
+<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+<!--用于读取手机当前的状态-->
+<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+<!--用于申请调用A-GPS模块-->
+<uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+<!--用于申请获取蓝牙信息进行室内定位-->
+<uses-permission android:name="android.permission.BLUETOOTH"/>
+<uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+<application
+    android:name=".utils.LifeApplication"
+    android:allowBackup="true"
+    android:icon="@mipmap/app_icon"
+    android:label="@string/app_name"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme">
+    <activity
+        android:name=".ui.SplashActivity"
+        android:label="@string/app_name"
+        android:theme="@style/appTheme">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN"/>
+
+            <category android:name="android.intent.category.LAUNCHER"/>
+        </intent-filter>
+    </activity>
+    <activity
+        android:name=".ui.MainActivity"
+        android:theme="@style/appTheme">
+    </activity>
+    <activity
+        android:name=".ui.activity.ScrollingActivity"
+        android:label="@string/title_activity_scrolling"
+        android:theme="@style/AppTheme">
+    </activity>
+
+    <provider
+        android:name=".db.WeatherInfoProvider"
+        android:authorities="com.ydscience.lifeassistant.db.WeatherInfoProvider"/>
+
+    <activity
+        android:name=".ui.activity.SelectMoreCityActivity"
+        android:label="@string/title_activity_select_more_city"
+        android:theme="@style/appTheme">
+    </activity>
+    <service android:name="com.amap.api.location.APSService"></service>
+    <meta-data android:name="com.amap.api.v2.apikey" android:value="2ebf04430b43f64ec754aa02651b3d9a">
+    </meta-data>
+</application>
+</manifest>

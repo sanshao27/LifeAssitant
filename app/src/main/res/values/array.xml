@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="declaed_title_name">
+        <item>资讯</item>
+        <item>天气</item>
+        <item>笑语</item>
+        <item>福利</item>
+    </array>
+    <array name="new_show_title">
+        <item>微信精选</item>
+        <item>知乎日报</item>
+        <item>国内新闻</item>
+        <item>国际新闻</item>
+        <item>军事新闻</item>
+        <item>科技新闻</item>
+    </array>
+    <array name="weather_aqi">
+        <item>优</item>
+        <item>良</item>
+        <item>轻度污染</item>
+        <item>中度污染</item>
+        <item>重度污染</item>
+        <item>严重污染</item>
+    </array>
+</resources>

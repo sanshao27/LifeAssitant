@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00BCD4</color>
+    <color name="colorPrimaryDark">#00BCD4</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="logoTextColor">#FFFFFF</color>
+    <color name="pagerSelectedColor">#FFFFFF</color>
+    <color name="pagereCommonColor">#eae2e2</color>
+    <color name="newTitleColor">#0b0b0b</color>
+    <color name="newOthersColor">#5c5c5c</color>
+    <color name="grey">#8c8c8c</color>
+    <color name="weather_background">#FFFFFD</color>
+</resources>

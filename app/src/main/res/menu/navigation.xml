@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_new"
+        android:icon="@drawable/ic_new_black_24dp"
+        android:title="@string/title_new"/>
+
+    <item
+        android:id="@+id/navigation_life_help"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_life_help"/>
+
+    <item
+        android:id="@+id/navigation_smile"
+        android:icon="@drawable/ic_smile_black_24dp"
+        android:title="@string/title_smile"/>
+
+    <item
+        android:id="@+id/navigation_program"
+        android:icon="@drawable/ic_program_black_24dp"
+        android:title="@string/title_program"/>
+
+</menu>
